@@ -1,0 +1,213 @@
+html{
+	background-color:#ede9c9;
+}
+body{
+	width:800px!important;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+}
+a{
+	color:black;
+}
+a:hover{
+	color:#0000FF;
+}
+div.bordure_haut_gauche{
+	width:22px;
+	height:97px;
+	background-image:url('../images/pages/page_coin_haut_gauche.jpg');
+	float:left;
+}
+div.bordure_haut_droite{
+	width:27px;
+	height:97px;
+	background-image:url('../images/pages/page_coin_haut_droite.jpg');
+	float:left;
+}
+div.bordure_centre_droite{
+	width:27px;
+	background-image:url('../images/pages/page_centre_droite.jpg');
+	background-repeat:repeat-y;
+	float:left;
+	zdisplay:none;
+}
+div.bordure_centre_gauche{
+	width:22px;
+	background-image:url('../images/pages/page_centre_gauche.jpg');
+	background-repeat:repeat-y;
+	float:left;
+}
+div#header{
+	width:750px;
+	height:97px;
+	background-image:url('../images/pages/banniere.png');
+	float:left;
+}
+div#header div#logo_click{
+	width:65px;
+	height:65px;
+	float:left;
+	margin-top:-45px;
+	margin-left:10px;
+}
+div#header div.titre{
+	float:left;
+	margin-top:44px;
+	margin-left:90px!important;
+	margin-left:45px;
+	font-size:18px;
+	text-decoration:none;
+}
+div#header div.menu_banniere{
+	margin-right:20px;
+	margin-top:65px!important;
+	margin-top:75px;
+}
+div#header div.menu_banniere p{
+	float:right;
+	margin-left:15px;
+	font-size:12px;
+}
+div#header div#modif_texte{
+	float:right;
+	margin-right:10px;
+	margin-top:20px;
+}
+div#menu{
+	width:750px!important;
+	width:753px;
+	height:29px;
+	float:left;
+}
+div#menu div{
+	height:29px;
+	float:left;
+}
+div#menu div.accueil{ background-image:url('../images/pages/menu/accueil.jpg'); width:112px;}
+div#menu div.nousSommes{ background-image:url('../images/pages/menu/nousSommes.jpg'); width:192px; }
+div#menu div.activitees{ background-image:url('../images/pages/menu/activitees.jpg'); width:160px; }
+div#menu div.comptoirs{ background-image:url('../images/pages/menu/comptoirs.jpg'); width:149px; }
+div#menu div.aider{ background-image:url('../images/pages/menu/aider.jpg'); width:137px; }
+
+div#contenu{
+	width:750px;
+	height:500px; /*modifier ds la page même */
+	float:left;
+	background-color:white;
+	padding-left:10px;
+	margin-right:-10px;
+}
+div#contenu p{
+	padding-right:40px;
+	padding-left:50px;
+}
+h1{
+	background-image:url('../images/titre.png');
+	height:36px; /* 41 - 5 */
+	padding-top:5px;
+	padding-left:10px;
+	font-size:22px;
+	width:96%;
+	margin-right:20px;
+	margin-top:10px;
+}
+h2{
+	margin-top:30px;
+	padding-left:30px;
+	font-size:18px;
+}
+h3{
+	margin-top:30px;
+	padding-left:30px;
+	font-weight: bold;
+	font-size:16px;
+}
+ul{
+	padding-left:80px;
+	padding-right:40px;
+}
+
+ol{
+	padding-left:80px;
+	padding-right:40px;
+}
+div#pied_de_page{
+	width:100%;
+	float:left;
+	height:75px;
+	margin-left:1px!important;
+	margin-left:0px;
+}
+div#pied_de_page div.bas_gauche{
+	width:22px;
+	height:75px;
+	background-image:url('../images/pages/bas_gauche.jpg');
+	float:left;
+}
+div#pied_de_page div.bas_centre{
+	width:749px;
+	height:75px;
+	background-image:url('../images/pages/bas_centre.jpg');
+	background-repeat:repeat-x;
+	float:left;
+}
+div#pied_de_page div.bas_droite{
+	width:27px;
+	height:75px;
+	background-image:url('../images/pages/bas_droite.jpg');
+	float:left;
+	margin-top:0px;
+}
+
+/*#######################################*/
+/*############ PARTICULIER ##############*/
+ul.planSite{
+	padding-left:50px;
+}
+ul.planSite li{
+	padding-top:20px;
+}
+ul.planSite li li{
+	padding-top:2px;
+	font-size:12px;
+}
+ul.planSite a{
+	color:#444499;
+}
+div.dossier{
+	height:50px;
+	background-image:url('../images/pages/dossier.png');
+	background-repeat:no-repeat;
+}
+div.dossier:hover{
+	color:blue;
+}
+div.dossier p{
+	padding-top:10px;
+	margin-left:5px;
+}
+div.photo{
+	width:100px;
+	height:100px;
+	overflow:hidden;
+	float:left;
+	margin-top:10px;
+	margin-right:25px;
+}
+div.photo img{
+	width:100px;
+	float:left;
+}
+table.table_presidents{
+	border-collapse:collapse;
+	margin-left:70px;
+}
+
+div.large p{
+	font-size: 1.1em;
+}
+
+div.large h3{
+	font-size: 1.2em;
+}
